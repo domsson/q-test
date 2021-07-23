@@ -1,3 +1,7 @@
+# RaspberryPi2 LVM test project
+
+![RapsberryPi 2](raspi.jpg)
+
 ## cat /etc/fstab
 
 ![cat /etc/fstab](screenshots/cat-etc-fstab.png)
