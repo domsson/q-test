@@ -1,0 +1,16 @@
+rebootlog: Writing dummy file of 100 MiB to /mnt/Data/July.21.2021_19:33:43.dummy
+100+0 records in
+100+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.26186 s, 83.1 MB/s
+rebootlog: Writing dummy file of 100 MiB to /mnt/Data/July.21.2021_19:45:03.dummy
+100+0 records in
+100+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.26502 s, 82.9 MB/s
+rebootlog: Writing dummy file of 100 MiB to /mnt/Data/July.22.2021_15:14:30.dummy
+100+0 records in
+100+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.256 s, 83.5 MB/s
+rebootlog: Writing dummy file of 100 MiB to /mnt/Data/July.23.2021_09:58:12.dummy
+100+0 records in
+100+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.23857 s, 84.7 MB/s

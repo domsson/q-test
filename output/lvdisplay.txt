@@ -1,0 +1,17 @@
+  --- Logical volume ---
+  LV Path                /dev/DataVG/DataPV
+  LV Name                DataPV
+  VG Name                DataVG
+  LV UUID                KnrCoO-2mUK-TCsi-D11p-DoP4-1xqb-1325iV
+  LV Write Access        read/write
+  LV Creation host, time rpi2-20210719, 2021-07-20 18:30:10 +0000
+  LV Status              available
+  # open                 1
+  LV Size                4.00 GiB
+  Current LE             1024
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           254:0
+   

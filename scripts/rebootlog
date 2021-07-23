@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Creates a (dummy) log file. If no file name is given, the file will be 
+# created on /mnt/Data and named according to the current time and date.
+# If no file size is given, a default of  100 MiB will be used.
+
+# Usage: ./rebootlog [file] [size_in_mib]
+
+name="$(basename $0)"
+file="${1}"
+size="${2:-100}"
+
+if [ -z "$file" ]; then
+	file="/mnt/Data/$(date +%B.%d.%Y_%H:%M:%S).dummy"
+fi
+
+echo "${name}: Writing dummy file of ${size} MiB to ${file}"
+dd if=/dev/zero of=${file} bs=1M count=${size}
+
