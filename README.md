@@ -1,6 +1,6 @@
 ## cat /etc/fstab
 
-![cat /etc/fstab](screenshots/etc-fstab.png)
+![cat /etc/fstab](screenshots/cat-etc-fstab.png)
 
     # The root file system has fs_passno=1 as per fstab(5) for automatic fsck.
     LABEL=RASPIROOT / ext4 rw 0 1
