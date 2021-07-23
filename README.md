@@ -1,6 +1,6 @@
 ## cat /etc/fstab
 
-![cat /etc/fstab](output/etc-fstab.png)
+![cat /etc/fstab](screenshots/etc-fstab.png)
 
     # The root file system has fs_passno=1 as per fstab(5) for automatic fsck.
     LABEL=RASPIROOT / ext4 rw 0 1
@@ -11,7 +11,7 @@
 
 ## df -h
 
-![df -h](output/df-h.png)
+![df -h](screenshots/df-h.png)
 
     Filesystem                 Size  Used Avail Use% Mounted on
     udev                       416M     0  416M   0% /dev
@@ -25,7 +25,7 @@
 
 ## crontab -l
 
-![crontab -l](output/crontab-l.png)
+![crontab -l](screenshots/crontab-l.png)
 
     # Edit this file to introduce tasks to be run by cron.
     # 
@@ -47,7 +47,7 @@
 
 ## lvdisplay
 
-![lvdisplay](output/lvdisplay.png)
+![lvdisplay](screenshots/lvdisplay.png)
 
       --- Logical volume ---
       LV Path                /dev/DataVG/DataPV
@@ -68,7 +68,7 @@
  
 ## ls -lh ~/
 
-![ls -lh](output/ls-lh.png)
+![ls -lh](screenshots/ls-lh.png)
 
     total 12K
     -rw-r--r-- 1 julien julien  718 Jul 23 09:58 executed.log
@@ -77,7 +77,7 @@
 
 ## cat ~/executed.log
 
-![cat ~/executed.log](output/cat-executed-log.png)
+![cat ~/executed.log](screenshots/cat-executed-log.png)
 
     rebootlog: Writing dummy file of 100 MiB to /mnt/Data/July.21.2021_19:33:43.dummy
     100+0 records in
