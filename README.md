@@ -72,7 +72,6 @@
 
     total 8K
     -rw-r--r-- 1 julien julien  718 Jul 23 09:58 executed.log
-    drwxr-xr-x 2 julien julien 4.0K Jul 23 14:52 output
     drwxr-xr-x 2 julien julien 4.0K Jul 23 14:05 scripts
 
 ## cat ~/executed.log
